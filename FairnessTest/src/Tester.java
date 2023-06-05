@@ -73,7 +73,7 @@ public class Tester {
                 backup.incDoneAssignments();
             }
         }
-        System.out.printf("Results for [NumOfGroups: %d, NumOfMembers: %d]:%n", numberOfGroups, totalNumberOfMembers);
+        System.out.printf("Results for [NumberOfAssignments: %d, NumOfGroups: %d, NumOfMembers: %d]:%n", NUMBER_OF_ASSIGNMENTS, numberOfGroups, totalNumberOfMembers);
         for (Group group: groupMap.values())
             System.out.println(group.finalResult());
     }
